@@ -555,6 +555,7 @@ img {
     transition: opacity var(--tra), visibility var(--tra);
 }
 .modal {
+    box-sizing: border-box;
     position: absolute;
 
     padding-top: 72px;
